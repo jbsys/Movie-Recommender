@@ -4,7 +4,7 @@ The goal of this system is to recommend movies based on user profiles. I have cr
 
 The main changes to our original dataset was turning dates into days of the week, requiring a minimum of 30 reviews per users and 20 reviews per movies, and breaking up genres into top 3. The resultant dataframe includes 1820 unique movies. 
 
-It was also interesting to pull information from IMDb's website and compare their top list to MovieLens'. I did this by applying the same equation IMDb uses to my dataset.
+It was also interesting to pull information from IMDb's website and compare their top list to MovieLens'. I did this by applying their weighted rating equation to MovieLens' dataset.
 
 To wrap everything up and upload it to Streamlit, I created dataframe's for every class of genre. I split them up accordingly: - - Children & Animation 
 Comedy
